@@ -21,5 +21,12 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        String a = "Люблю грозу в начале мая,";
+        String b = "Когда весенний, первый гром,";
+        String c = "как бы резвяся и играя,";
+        String d = "Грохочет в небе голубом.";
+        System.out.println("Мое любимое стихотворение:"+"\n"+a+"\n"+b+"\n"+c+"\n"+d);
+    }
 
 }
