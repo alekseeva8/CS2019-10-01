@@ -33,8 +33,16 @@ import java.util.Scanner;
 */
 class TaskC3 {
     public static void main(String[] args) {
-
-
+        Scanner sc = new Scanner(System.in);
+        int ME = sc.nextInt();
+        System.out.println(getWeight(ME));
     }
 
+    public static double getWeight (int ME) {
+        double gE = 9.81;
+        double gM = 3.86;
+        double MM =  ME*gM/gE;
+        double MMround = Math.round(MM*100.00)/100.00;
+        return MMround;
+    }
 }
