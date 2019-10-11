@@ -41,7 +41,7 @@ class TaskB2 {
         double j = Math.sqrt(dis);
         double x1 = (-b+j)/(2*a);
         double x2 = (-b-j)/(2*a);
-        double i = -b/(2*a);
+        double i = -b/(2.0*a);
         if (dis > 0) System.out.println(x1+" "+x2);
         if (dis == 0) System.out.println(i);
         if (dis < 0) System.out.println("Отрицательный дискриминант");

@@ -34,8 +34,7 @@ class TaskC1 {
         System.out.println(convertCelsiumToFahrenheit(TC));
     }
 
-    public static double convertCelsiumToFahrenheit(int TC) {
-        double TF = 1.8 * TC + 32.0;
-        return TF;
+    private static double convertCelsiumToFahrenheit(int TC) {
+        return 1.8 * TC + 32.0;
     }
 }
