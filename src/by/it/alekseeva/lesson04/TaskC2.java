@@ -1,5 +1,7 @@
 package by.it.alekseeva.lesson04;
 
+import java.util.Scanner;
+
 /*
 
 На входе вводится число и месяц 2018 года.
@@ -27,5 +29,26 @@ package by.it.alekseeva.lesson04;
 
  */
 public class TaskC2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int j = sc.nextInt();
+        if (j == 1) System.out.println(i);
+        else if (j == 2) System.out.println(31+i);
+        else if (j == 3) System.out.println(28+31+i);
+        else if (j == 4) System.out.println(31+28+31+i);
+        else if (j == 5) System.out.println(30+31+28+31+i);
+        else if (j == 6) System.out.println(31+30+31+28+31+i);
+        else if (j == 7) System.out.println(30+31+30+31+28+31+i);
+        else if (j == 8) System.out.println(31+30+31+30+31+28+31+i);
+        else if (j == 9) System.out.println(31+31+30+31+30+31+28+31+i);
+        else if (j == 10) System.out.println(30+31+31+30+31+30+31+28+31+i);
+        else if (j == 11) System.out.println(31+30+31+31+30+31+30+31+28+31+i);
+        else if (j == 12) System.out.println(30+31+30+31+31+30+31+30+31+28+31+i);
 
-}
+    }
+    }
+
+
+
+
