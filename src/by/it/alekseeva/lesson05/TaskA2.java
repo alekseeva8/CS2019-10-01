@@ -31,6 +31,7 @@ public class TaskA2 {
             if (value.equals("END"))
                 break;
             else array.add (value);
+
         }
         System.out.println(array);
     }

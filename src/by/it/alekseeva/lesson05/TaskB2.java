@@ -41,6 +41,7 @@ public class TaskB2 {
             System.out.println("b="+Arrays.toString(b));
 
 
+
         }
     }
 }

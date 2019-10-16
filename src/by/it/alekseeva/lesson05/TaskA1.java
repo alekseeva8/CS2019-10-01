@@ -35,6 +35,7 @@ public class TaskA1 {
         }
         for (int element : massive) {
             System.out.println(element);
+
         }
 
         }

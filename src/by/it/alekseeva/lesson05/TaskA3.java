@@ -29,6 +29,7 @@ public class TaskA3 {
                 min = massive[i];
             if (massive[i]> max)
                 max = massive[i];
+
         }
         System.out.println(min+" "+max);
     }
