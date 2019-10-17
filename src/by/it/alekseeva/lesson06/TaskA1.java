@@ -30,5 +30,16 @@ package by.it.alekseeva.lesson06;
 
 
 public class TaskA1 {
+    public static void main(String[] args) {
+
+    }
+    class Dog {
+        String name; int age;
+        public String getName () {return name;}
+        public void setName (String name) {
+
+        }
+
+    }
 
 }
