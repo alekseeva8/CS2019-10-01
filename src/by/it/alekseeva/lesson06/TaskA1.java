@@ -27,19 +27,22 @@ package by.it.alekseeva.lesson06;
 Тузик 3
 */
 
-
-
 public class TaskA1 {
     public static void main(String[] args) {
+        Dog dog1 = new Dog ();
+        dog1.setName("Шарик");
+        dog1.setAge(5);
+
+        Dog dog2 = new Dog ();
+        dog2.setName("Тузик");
+        dog2.setAge(3);
+
+        System.out.println(dog1.getName()+" "+ dog1.getAge());
+        System.out.println(dog2.getName()+" "+ dog2.getAge());
+
 
     }
-    class Dog {
-        String name; int age;
-        public String getName () {return name;}
-        public void setName (String name) {
-
-        }
 
     }
 
-}
+
