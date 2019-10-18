@@ -14,5 +14,6 @@ public class DogHelper {
         }
         return sum/dogs.length;
 
+
     }
 }

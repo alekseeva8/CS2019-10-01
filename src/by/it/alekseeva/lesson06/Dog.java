@@ -31,4 +31,5 @@ public class Dog {
     public String toString() {
         return "Кличка: "+ name+". Возраст: " +age;
     }
+
 }

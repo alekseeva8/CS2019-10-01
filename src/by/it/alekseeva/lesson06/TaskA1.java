@@ -40,7 +40,6 @@ public class TaskA1 {
         System.out.println(dog1.getName()+" "+ dog1.getAge());
         System.out.println(dog2.getName()+" "+ dog2.getAge());
 
-
     }
 
     }
