@@ -1,5 +1,7 @@
 package by.it.alekseeva.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,54 @@ package by.it.alekseeva.lesson04;
 
 */
 public class TaskC1 {
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextInt();
+        if (a < 300 || a > 3000) {
+            System.out.println("Мы вам перезвоним!");
+        }
+        else
+            for (int month = 0; month <=14; month++) {
+                double salary = a;
+                if (month<1 || month>12)
+                  salary = 0.0;
+                else if (month<6 || month>8)
+                    salary=a*1.5;
+                switch (month) {
+                    case 1: System.out.println("За январь начислено $"+salary); break;
+                    case 2: System.out.println("За февраль начислено $"+salary); break;
+                    case 3: System.out.println("За март начислено $"+salary); break;
+                    case 4: System.out.println("За апрель начислено $"+salary); break;
+                    case 5: System.out.println("За май начислено $"+salary); break;
+                    case 6: System.out.println("За июнь начислено $"+salary); break;
+                    case 7: System.out.println("За июль начислено $"+salary); break;
+                    case 8: System.out.println("За август начислено $"+salary); break;
+                    case 9: System.out.println("За сентябрь начислено $"+salary); break;
+                    case 10:System.out.println("За октябрь начислено $"+salary); break;
+                    case 11: System.out.println("За ноябрь начислено $"+salary); break;
+                    case 12: System.out.println("За декабрь начислено $"+salary); break;
+                    default:
+                        System.out.println("За месяц"+" "+month+ " "+"начислено $"+salary); break;
+                } if (salary==666) break;
+                }
+
+            }
+
+            }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
